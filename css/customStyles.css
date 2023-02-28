@@ -1,0 +1,57 @@
+.navbar-brand {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #FF7343;
+    border-color: #FF7343;
+}
+
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #FF642F;
+    border-color: #FF642F;
+}
+
+.btn-primary:disabled, .btn-primary.disabled {
+    color: #fff;
+    background-color: #FF7343;
+    border-color: #FF7343;
+  }
+
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #FF7343;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(255, 115, 67, 0.25);
+  }
+
+  header.masthead {
+    position: relative;
+    background-color: transparent;
+    background: url("../assets/img/bg-masthead.jpg") no-repeat center center;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+  header.masthead:before {
+    content: "";
+    position: absolute;
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+  }
+
+  .call-to-action {
+    background-color: transparent;
+  }
+
+  .call-to-action:before {
+    background-color: transparent;
+  }
